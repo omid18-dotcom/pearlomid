@@ -9,7 +9,7 @@ const memories = [
   {
     label: "That one night",
     title: "When you stayed up with me",
-    text: "I was having one of those nights where everything felt wrong and I couldn't explain why. You didn't try to fix it. You just stayed. You sent stupid memes and talked about nothing and somehow that was exactly everything.",
+    text: "I was having one of those nights where everything felt wrong and I couldn't explain why. You didn't try to fix it. You just stayed. You sent stupid memes and talked about nothing and somehow that was exactly everything",
   },
   {
     label: "A quiet moment",
