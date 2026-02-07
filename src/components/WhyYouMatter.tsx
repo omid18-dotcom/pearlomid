@@ -18,12 +18,7 @@ export default function WhyYouMatter() {
 
           <p className="">There are days when everything feels a little too heavy, and I don't always know how to talk about it. But with you, I don't feel like I have to perform being okay. I just say what is real. i say if it is good if it is bad if it is unpleasing. You know why? cause you listen and don't judge. Thank you so much po for always listening.</p>
 
-          <p>
-            And honestly? You've changed me. Not in some big, obvious way. But in the small
-            shifts — the way I'm a little kinder to myself now, the way I believe a bit more
-            that good people are real and not just something from books. You're proof of that.
-            Just by being yourself.
-          </p>
+          <p>And honestly? You've changed me. Not in some big, obvious way. But in the small shifts — the way I'm kind to myself. you have thought me how to love myself babyyyyyy. you have thought me how to real. how to myself. I found myself in you.</p>
 
           <p className="text-muted-foreground italic">
             So yeah. You matter. More than I probably show. More than I probably say. But I
