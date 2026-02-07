@@ -8,7 +8,7 @@ export default function WhyYouMatter() {
         </h2>
 
         <div className="space-y-6 text-base md:text-lg font-body text-secondary-foreground leading-relaxed">
-          <p className="">I have been naive before you. I thought i will just live my whole life single. When i met you in HELLOTALK. I was thinking with myself you are a kiddo.</p>
+          <p className="">I have been naive before you. I thought i will just live my whole life single. When i met you in HELLOTALK. I was thinking with myself you are a kiddo. I was annoying you so much. i annoyed you for a whole week. You understood the loneliness inside me. Instead of letting me go you stayed. You asked for my contact you were afraid if i delete hellotalk how will you fix me. your kind heart stayed and fixed my lonely heart.</p>
 
           <p>
             You're the person I think of when something small and good happens. Like when I
