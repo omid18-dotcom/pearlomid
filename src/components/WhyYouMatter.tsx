@@ -14,11 +14,7 @@ export default function WhyYouMatter() {
 
           <p className="">I didn't want to make you sad. I gave you a challange win 3/5 games in PLATO. I will accept our relationship and say Those 3 magical words. while playing i asked god please god show me a way. and i felt something in my heart my brain was saying win those 3 games my heart was saying lose those 3 games. I was competing with myself and my heart won. I said I love You 1st.</p>
 
-          <p>
-            You make things lighter. Not because you fix things or have all the answers, but
-            because you're just… there. You listen. You show up. You remember the small things
-            I mention once and never expect you to hold onto. But you do. You always do.
-          </p>
+          <p className="">What I love most about you is that you are honest in a rare way. You don't try to be anything you are not. You say what you mean, You mean what you say. It matters so much po.</p>
 
           <p>
             There are days when everything feels a little too heavy, and I don't always know
