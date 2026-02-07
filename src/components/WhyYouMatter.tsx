@@ -10,12 +10,7 @@ export default function WhyYouMatter() {
         <div className="space-y-6 text-base md:text-lg font-body text-secondary-foreground leading-relaxed">
           <p className="">I have been naive before you. I thought i will just live my whole life single. When i met you in HELLOTALK. I was thinking with myself you are a kiddo. I was annoying you so much. i annoyed you for a whole week. You understood the loneliness inside me. Instead of letting me go you stayed. You asked for my contact you were afraid if i delete hellotalk how will you fix me. your kind heart stayed and fixed my lonely heart.</p>
 
-          <p>
-            You're the person I think of when something small and good happens. Like when I
-            hear a song that's just right, or when the weather does that thing in the evening
-            where everything goes golden for a few minutes. I just think, "they'd like this."
-            And that's it. That's the whole thought. But it happens all the time.
-          </p>
+          <p className="">Hahaha you said you were making a groupchat. But all i saw was your phone number only. I tried to block you but you insisted you are not leaving you insisted to be friends. that was when i truly felt your warmth i felt my cold heart warming. I thought being cold will make you stay away from me. But you stayed.</p>
 
           <p>
             I think what I appreciate most about you is that you don't try to be anything
