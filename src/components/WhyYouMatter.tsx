@@ -16,12 +16,7 @@ export default function WhyYouMatter() {
 
           <p className="">What I love most about you is that you are honest in a rare way. You don't try to be anything you are not. You say what you mean, You mean what you say. It matters so much po.</p>
 
-          <p>
-            There are days when everything feels a little too heavy, and I don't always know
-            how to talk about it. But with you, I don't feel like I have to perform being okay.
-            I can just be tired, or confused, or quiet, and you don't make it weird. You just
-            sit with it. That kind of patience is something I'll never take for granted.
-          </p>
+          <p className="">There are days when everything feels a little too heavy, and I don't always know how to talk about it. But with you, I don't feel like I have to perform being okay. I just say what is real. i say if it is good if it is bad if it is unpleasing. You know why? cause you listen and don't judge. Thank you so much po for always listening.</p>
 
           <p>
             And honestly? You've changed me. Not in some big, obvious way. But in the small
