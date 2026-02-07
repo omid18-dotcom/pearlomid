@@ -12,7 +12,7 @@ export default function WhyYouMatter() {
 
           <p className="">Hahaha you said you were making a groupchat. But all i saw was your phone number only. I tried to block you but you insisted you are not leaving you insisted to be friends. that was when i truly felt your warmth i felt my cold heart warming. I thought being cold will make you stay away from me. But you stayed.</p>
 
-          <p className="">I didn't want to make you sad. I gave you a challange win 3/5 games in PLATO. I will accept our relationship and say Those 3 magical words. while playing i asked god please god show me a way. and i felt something in my heart my brain was saying win those 3 games my heart was saying lose those 3 games. I was competing with myself and my heart won. I said I love You 1st</p>
+          <p className="">I didn't want to make you sad. I gave you a challange win 3/5 games in PLATO. I will accept our relationship and say Those 3 magical words. while playing i asked god please god show me a way. and i felt something in my heart my brain was saying win those 3 games my heart was saying lose those 3 games. I was competing with myself and my heart won. I said I love You 1st.</p>
 
           <p>
             You make things lighter. Not because you fix things or have all the answers, but
