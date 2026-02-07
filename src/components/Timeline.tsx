@@ -4,7 +4,7 @@ const memories = [
   {
     label: "The beginning",
     title: "When we first talked",
-    text: "I didn't think much of it at the time, honestly. Just a normal conversation. But looking back, that's when everything started shifting. Something about the way you listened made me feel like I could actually say what I meant.",
+    text: "Honestly there was a magnetic attention you had. I felt something the 1st time i heard your voice. You were busy talking with BBO. and i was teasing you. i really liked it when you give me attention.",
   },
   {
     label: "That one night",
