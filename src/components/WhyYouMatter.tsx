@@ -1,22 +1,14 @@
 import { useScrollFade } from "@/hooks/useScrollFade";
-
 export default function WhyYouMatter() {
   const ref = useScrollFade();
-
-  return (
-    <section id="why-you" className="py-20 md:py-28">
+  return <section id="why-you" className="py-20 md:py-28">
       <div ref={ref} className="section-fade section-container">
         <h2 className="text-3xl md:text-4xl font-display font-medium text-foreground mb-10">
           Why You Matter to Me
         </h2>
 
         <div className="space-y-6 text-base md:text-lg font-body text-secondary-foreground leading-relaxed">
-          <p>
-            I've been thinking about how to say this for a while. Not because it's complicated,
-            but because the simple things are usually the hardest to put into words. You matter
-            to me. Not in a dramatic, movie-scene kind of way — but in the quiet, everyday way
-            that actually means something.
-          </p>
+          <p className="">I have been naive before you. I thought i will just live my whole life single. When i met you in HELLOTALK. I was thinking with myself you are a kiddo.</p>
 
           <p>
             You're the person I think of when something small and good happens. Like when I
@@ -58,6 +50,5 @@ export default function WhyYouMatter() {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
