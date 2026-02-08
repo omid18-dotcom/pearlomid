@@ -9,7 +9,7 @@ const memories = [
   {
     label: "That one night",
     title: "When you stayed up with me",
-    text: "I was having one of those nights where everything felt wrong and I couldn't explain why. You didn't try to fix it. You just stayed. You sent stupid memes and talked about nothing and somehow that was exactly everything",
+    text: "back in pakistan that one night we were drowned in each other's eyes we talked so much without talking we were looking into each other eyes. instead of talking we choose to talk through loving eyes. your eyes spoke unspokable words so did my eyes.",
   },
   {
     label: "A quiet moment",
