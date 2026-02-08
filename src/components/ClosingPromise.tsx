@@ -1,11 +1,8 @@
 import { useScrollFade } from "@/hooks/useScrollFade";
 import { Heart } from "lucide-react";
-
 export default function ClosingPromise() {
   const ref = useScrollFade();
-
-  return (
-    <section id="promise" className="py-20 md:py-28 bg-secondary/50">
+  return <section id="promise" className="py-20 md:py-28 bg-secondary/50">
       <div ref={ref} className="section-fade section-container text-center">
         <Heart className="w-8 h-8 text-primary fill-primary mx-auto mb-8 animate-gentle-float" />
 
@@ -14,12 +11,7 @@ export default function ClosingPromise() {
         </h2>
 
         <div className="max-w-2xl mx-auto space-y-6 text-base md:text-lg font-body text-secondary-foreground leading-relaxed text-left">
-          <p>
-            I'm not going to promise you that I'll always say the right thing, because I won't.
-            I'll mess up. I'll say something clumsy when I mean something kind. I'll go quiet
-            when I should speak up. I'll probably overthink a message for twenty minutes and
-            then send something completely different.
-          </p>
+          <p className="">I'm not going to promise you that I'll always say the right thing, because I won't. I'll mess up. I'll say something clumsy when I mean something kind. I'll go quiet when I should speak up. I'll probably overthink a message.</p>
 
           <p>
             But here's what I can promise: I'll try. Genuinely, honestly try. Not the kind of
@@ -53,6 +45,5 @@ export default function ClosingPromise() {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 }
