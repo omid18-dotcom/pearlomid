@@ -82,7 +82,7 @@ export default function StepPickNumber({ onPick }: Props) {
               {selected!.message}
             </p>
           </div>
-          <p className="text-muted-foreground text-xs">From your boyfriend, with all my heart 🤍</p>
+          <p className="text-muted-foreground text-xs">From Omid, with all my heart 🤍</p>
           <button
             onClick={onPick}
             className="mt-4 bg-primary text-primary-foreground px-8 py-3 rounded-full text-lg font-medium hover:opacity-90 transition-opacity"
