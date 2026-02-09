@@ -11,29 +11,12 @@ import StepLetter from "@/components/surprise/StepLetter";
 
 const SurpriseFlow = () => {
   const [step, setStep] = useState(0);
-  const [songId, setSongId] = useState<string | null>(null);
 
   const next = () => setStep((s) => s + 1);
 
-  const handleSongPick = (id: string) => {
-    setSongId(id);
-    next();
-  };
-
   return (
     <div className="min-h-screen bg-background flex items-center justify-center p-6">
-      {/* Background music player */}
-      {songId && (
-        <iframe
-          className="fixed top-0 left-0 w-0 h-0 pointer-events-none opacity-0"
-          src={`https://www.youtube.com/embed/${songId}?autoplay=1&mute=0&loop=1&playlist=${songId}&controls=0&enablejsapi=1&playsinline=1`}
-          allow="autoplay; encrypted-media; accelerometer; gyroscope"
-          referrerPolicy="no-referrer"
-          title="Background music"
-        />
-      )}
-
-      {step === 0 && <StepPickNumber onPick={handleSongPick} />}
+      {step === 0 && <StepPickNumber onPick={next} />}
       {step === 1 && <StepAmIGay onNo={next} />}
       {step === 2 && <StepTease onNext={next} />}
       {step === 3 && <StepMad onYes={next} />}

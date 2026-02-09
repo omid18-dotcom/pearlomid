@@ -1,30 +1,30 @@
 import { useState } from "react";
-import { Heart, Music } from "lucide-react";
+import { Heart } from "lucide-react";
 
 interface Props {
-  onPick: (songId: string) => void;
+  onPick: () => void;
 }
 
 const choices = [
   {
     number: 1,
-    songId: "N1wgZRCDlxU",
-    poem: `Sa liwanag ng buwan,\nnasumpungan kita—\nang tanging tahanan\nng aking puso't diwa.`,
+    message: `You are my today, my tomorrow,\nand every single day after that.\nI will never stop choosing you. 💕`,
+    assurance: "You are my forever.",
   },
   {
     number: 2,
-    songId: "KMHsOFET9Lg",
-    poem: `Bajo un cielo de estrellas,\nte encontré, mi amor—\ncada beso tuyo\nes mi canción mejor.`,
+    message: `No matter how hard life gets,\nI promise to hold your hand through it all.\nYou'll never face anything alone. 🤍`,
+    assurance: "I'll always be here.",
   },
   {
     number: 3,
-    songId: "p_Fk9Cq-_6I",
-    poem: `I had all and then most of you,\nsome and now none of you—\nbut in the silence of the night,\nyou're still the only view.`,
+    message: `You are the most beautiful thing\nthat ever happened to me.\nI fall in love with you every single day. 🌹`,
+    assurance: "You are my everything.",
   },
   {
     number: 4,
-    songId: "xEeFrLSkMm8",
-    poem: `너를 만난 그 순간부터\n세상이 달라졌어—\n내 마음속에 너만이\n영원히 살고 있어.`,
+    message: `Even on your worst days,\nyou are still the best thing in my life.\nI love you more than words can say. 💗`,
+    assurance: "You are more than enough.",
   },
 ];
 
@@ -64,24 +64,27 @@ export default function StepPickNumber({ onPick }: Props) {
                   {c.number}
                 </span>
                 <span className="text-lg mt-2 block">💕</span>
-                <Music className="w-4 h-4 text-muted-foreground mx-auto mt-2 opacity-50" />
               </button>
             ))}
           </div>
         </>
       ) : (
         <div className="animate-fade-up space-y-6">
+          <Heart className="w-12 h-12 text-primary mx-auto animate-pulse" />
           <h2 className="text-3xl font-display text-primary">
             You picked {selected!.number} 💕
           </h2>
+          <p className="text-sm text-muted-foreground italic">
+            — {selected!.assurance} —
+          </p>
           <div className="bg-card border border-primary/20 rounded-2xl p-6 shadow-soft">
             <p className="font-body text-foreground whitespace-pre-line leading-relaxed text-lg italic">
-              {selected!.poem}
+              {selected!.message}
             </p>
           </div>
-          <p className="text-muted-foreground text-sm">🎵 Listen closely… 🎵</p>
+          <p className="text-muted-foreground text-xs">From your boyfriend, with all my heart 🤍</p>
           <button
-            onClick={() => onPick(selected!.songId)}
+            onClick={onPick}
             className="mt-4 bg-primary text-primary-foreground px-8 py-3 rounded-full text-lg font-medium hover:opacity-90 transition-opacity"
           >
             Continue 💕
