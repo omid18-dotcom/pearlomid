@@ -26,8 +26,9 @@ const SurpriseFlow = () => {
       {songId && (
         <iframe
           className="fixed top-0 left-0 w-0 h-0 pointer-events-none opacity-0"
-          src={`https://www.youtube.com/embed/${songId}?autoplay=1&loop=1&playlist=${songId}&controls=0`}
-          allow="autoplay; encrypted-media"
+          src={`https://www.youtube.com/embed/${songId}?autoplay=1&mute=0&loop=1&playlist=${songId}&controls=0&enablejsapi=1&playsinline=1`}
+          allow="autoplay; encrypted-media; accelerometer; gyroscope"
+          referrerPolicy="no-referrer"
           title="Background music"
         />
       )}

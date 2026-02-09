@@ -8,25 +8,21 @@ interface Props {
 const choices = [
   {
     number: 1,
-    country: "🇵🇭",
     songId: "N1wgZRCDlxU",
     poem: `Sa liwanag ng buwan,\nnasumpungan kita—\nang tanging tahanan\nng aking puso't diwa.`,
   },
   {
     number: 2,
-    country: "🇪🇸",
     songId: "KMHsOFET9Lg",
     poem: `Bajo un cielo de estrellas,\nte encontré, mi amor—\ncada beso tuyo\nes mi canción mejor.`,
   },
   {
     number: 3,
-    country: "🇬🇧",
     songId: "p_Fk9Cq-_6I",
     poem: `I had all and then most of you,\nsome and now none of you—\nbut in the silence of the night,\nyou're still the only view.`,
   },
   {
     number: 4,
-    country: "🇰🇷",
     songId: "xEeFrLSkMm8",
     poem: `너를 만난 그 순간부터\n세상이 달라졌어—\n내 마음속에 너만이\n영원히 살고 있어.`,
   },
@@ -67,7 +63,7 @@ export default function StepPickNumber({ onPick }: Props) {
                 <span className="text-5xl font-display text-primary group-hover:scale-110 transition-transform block">
                   {c.number}
                 </span>
-                <span className="text-2xl mt-2 block">{c.country}</span>
+                <span className="text-lg mt-2 block">💕</span>
                 <Music className="w-4 h-4 text-muted-foreground mx-auto mt-2 opacity-50" />
               </button>
             ))}
@@ -76,7 +72,7 @@ export default function StepPickNumber({ onPick }: Props) {
       ) : (
         <div className="animate-fade-up space-y-6">
           <h2 className="text-3xl font-display text-primary">
-            Number {selected!.number} {selected!.country}
+            You picked {selected!.number} 💕
           </h2>
           <div className="bg-card border border-primary/20 rounded-2xl p-6 shadow-soft">
             <p className="font-body text-foreground whitespace-pre-line leading-relaxed text-lg italic">
